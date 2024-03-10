@@ -1,7 +1,7 @@
 // user-list.component.ts
 
 import { Component, OnInit } from '@angular/core';
-import { UserService } from '../services/user.service'; // Importing the user service
+import { UserService } from '../../../services/user.service'; // Importing the user service  
 
 @Component({
   selector: 'app-user-list',

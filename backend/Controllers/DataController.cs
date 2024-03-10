@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using YourProject.Models;
-using YourProject.Services;
+using backend.Models;
+using backend.Services;
 
 namespace backend.Controllers
 {

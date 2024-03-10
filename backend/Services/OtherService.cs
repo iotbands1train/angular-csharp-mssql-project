@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using YourProject.Models;
+using backend.Models;
 
-namespace YourProject.Services
+namespace backend.Services
 {
     public class OtherService
     {

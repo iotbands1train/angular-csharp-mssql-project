@@ -1,0 +1,19 @@
+<!-- other-list.component.html -->
+
+<!-- Displaying other data -->
+<div *ngIf="otherData.length > 0">
+    <h2>Other Data List</h2>
+    <ul>
+      <!-- Iterate over each item in otherData array -->
+      <li *ngFor="let item of otherData">
+        <!-- Display item properties -->
+        <span>{{ item.property1 }}</span> - <span>{{ item.property2 }}</span>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- Display message when otherData array is empty -->
+  <div *ngIf="otherData.length === 0">
+    <p>No other data available.</p>
+  </div>
+  

@@ -1,42 +1,54 @@
-# Frontend
+# Angular Frontend
 
-This folder contains the frontend code for our Angular-C#-MSSQL project. The frontend is built using Angular, providing a user-friendly interface for interacting with the application.
+This is the frontend part of the Angular-C#-MSSQL project. It contains the Angular application responsible for the user interface.
 
-## Folder Structure
+## Project Structure
+
+frontend/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ │ ├── user-list/
+│ │ │ │ ├── user-list.component.ts
+│ │ │ │ ├── user-list.component.html
+│ │ │ │ └── user-list.component.css
+│ │ ├── services/
+│ │ │ ├── user.service.ts
 
 
-
-
-## Details
-
-- **src/**: Source code for the Angular application.
-  - **app/**: Main application folder containing components, services, models, and other Angular files.
-    - **components/**: Contains Angular components responsible for rendering different parts of the UI. For example, `user-list/` contains files related to the user list component.
-    - **services/**: Contains Angular services for fetching and managing data. For instance, `user.service.ts` might handle HTTP requests to the backend API.
-    - **models/**: Contains TypeScript models representing data structures used in the frontend. For example, `user.model.ts` defines the structure of a user object.
-    - **app.module.ts**: Main Angular module where you import and declare components, services, and other modules.
-    - **app-routing.module.ts**: Angular routing configuration for navigating between different views or components.
-
-- **index.html**: HTML template for the Angular application.
-
-- **styles.css**: Global CSS styles applied to the entire application.
-
-## Usage
-
-To work on the frontend code:
-
-1. Open the frontend folder in your preferred IDE or text editor.
-2. Make necessary changes to components, services, models, or other Angular files.
-3. Run `npm install` to install dependencies if it's your first time working on the project.
-4. Run `ng serve` to start the Angular development server.
-5. Access the application through the provided URL (usually `http://localhost:4200`) and test your changes in the browser.
-
-## Dependencies
+## Technologies
 
 - Angular
-- Angular Material (or any other UI framework used in the frontend)
+- TypeScript
+- HTML
+- CSS
+- Node.js
+- NPM
+
+
+
+## Components
+
+- **User List Component**: Displays a list of users.
+
+## Services
+
+- **User Service**: Handles HTTP requests for user-related operations.
+
+## Getting Started
+
+To get started with the frontend development:
+
+1. Clone this repository.
+2. Navigate to the `frontend` directory.
+3. Run `npm install` to install dependencies.
+4. Run `ng serve` to start the development server.
+5. Open your browser and navigate to `http://localhost:4200/` to view the application.
 
 ## Contributing
 
-Contributions to the frontend codebase are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

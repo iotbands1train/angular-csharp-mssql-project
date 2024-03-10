@@ -1,0 +1,59 @@
+/* Global Styles */
+
+/* Apply a box-sizing border-box model to all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Reset default margin and padding */
+  body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Apply styles to the app-root component */
+  app-root {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Styles for the user-list component */
+  app-user-list {
+    /* Add specific styles for the user-list component */
+  }
+  
+  /* Styles for the other-list component */
+  app-other-list {
+    /* Add specific styles for the other-list component */
+  }
+  
+  
+  /* Custom Component Styles */
+  
+  /* Styles for the container of the user list */
+  .user-list-container {
+    /* Add styles for the container of the user list */
+  }
+  
+  /* Styles for each user list item */
+  .user-list-item {
+    /* Add styles for each user list item */
+  }
+  
+  /* Styles for the container of the other list */
+  .other-list-container {
+    /* Add styles for the container of the other list */
+  }
+  
+  /* Styles for each other list item */
+  .other-list-item {
+    /* Add styles for each other list item */
+  }
+  

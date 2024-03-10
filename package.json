@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "@angular/core": "^17.2.4"
+    "@angular/common": "latest",
+    "@angular/core": "latest",
+    "rxjs": "latest",
+    "tslib": "latest",
+    "zone.js": "latest"
   }
+  
 }
