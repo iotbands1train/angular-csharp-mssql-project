@@ -1,4 +1,13 @@
 # Angular C# MSSQL Project
+## Folder Structure
+## Backend
+## Frontend
+## Database
+## Getting Started
+## Dependencies
+
+
+
 
 This project is a full-stack application built using Angular for the front end, C# for the back end, and MSSQL for the database.
 
